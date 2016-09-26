@@ -32,7 +32,8 @@ public class FlipkartHomePage extends MyDrivers{
 	/*public FlipkartHomePage()*/
 	static
 	{
-		/*FlipkartHomePage.driver1=driver;
+		System.out.println("INSIDE STATIC BLOCK");
+                /*FlipkartHomePage.driver1=driver;
 		PageFactory.initElements(driver1, FlipkartHomePage.class);*/
 	}
 
