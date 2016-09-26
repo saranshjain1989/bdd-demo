@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "flow till step1",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is on flipkart homepage",
+            "match": {
+              "location": "FlipkartLoginSD.user_is_on_flipkart_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 9,
+            "value": "#When user clicks on Sign in button"
+          },
+          {
+            "line": 10,
+            "value": "#Then user is displayed login screen"
+          },
+          {
+            "line": 11,
+            "value": "#When user types \"asics shoes\" in search box"
+          },
+          {
+            "line": 12,
+            "value": "#When user clicks search button"
+          },
+          {
+            "line": 13,
+            "value": "#Then asics shoes are displayed"
+          }
+        ],
+        "line": 16,
+        "name": "Available content",
+        "description": "",
+        "id": "shopclues-login;available-content",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Electronics button is present on the screen",
+            "match": {
+              "location": "FlipkartLoginSD.electronics_button_is_present_on_the_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user clicks on Electronics button",
+            "match": {
+              "location": "FlipkartLoginSD.user_clicks_on_Electronics_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user is displayed mobile option",
+            "match": {
+              "location": "FlipkartLoginSD.user_is_displayed_mobile_option()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Shopclues login",
+    "description": "",
+    "id": "shopclues-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/cucumber/features/shopclues_login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@important"
+      }
+    ]
+  }
+]
