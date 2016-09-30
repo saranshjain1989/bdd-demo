@@ -33,30 +33,30 @@ public class MyDrivers {
 		System.out.println("Platform= " + currentOS);
 		System.out.println("URL= " + baseURL);
 
-		initateDriver(browser);
+		initateDriver(3);
 		OpenURL(baseURL);
 		Thread.sleep(2000);
 	}
 
-	public static void initateDriver(String browserName) {
+	public static void initateDriver(int browserName) {
 		System.out.println("INSIDE BROWSER DRIVER");
 		switch (browserName)
 		{
-		case "Firefox":
+		case 1:
 			if (driver == null)
 			{
 				driver = new FirefoxDriver();
 			}
 			break;
 
-		case "IE":
+		case 2:
 			if (driver == null)
 			{
 				driver = new InternetExplorerDriver();
 			}
 			break;
 
-		case "Chrome":
+		case 3:
 			if (driver == null)
 			{   
 				System.setProperty("webdriver.chrome.driver", "C:\\Users\\saranshjain\\Desktop\\Drivers\\chromedriver.exe");
