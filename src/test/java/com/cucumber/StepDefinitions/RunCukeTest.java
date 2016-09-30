@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 		strict = false,*/
 		monochrome=true,
 		plugin = { /*progress,usage,rerun*/
-				"pretty","html:target/cucumber/cucumbertests.html"
+				"pretty","json:target/cucumber/cucumbertests.html"
 		} 
 
 		)
